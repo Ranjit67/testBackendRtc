@@ -34,7 +34,7 @@ io.on("connection", (socket) => {
     // console.log(socket.id);
   });
 });
-
+//state
 server.listen(process.env.PORT || 5000, () => {
   console.log("The port 5000 is ready to start");
 });
